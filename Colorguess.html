@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>Colorguess</title>
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="color.css">
+</head>
+<body id=colorWin>
+
+    <!-- jumbotrom -->
+    <div class="container">
+     <div class="jumbotron jumbotron-fluid bg-dark"> 
+        <div class="container">
+          <h1 class="display-5">Guess the color!!</h1>
+        </div>
+      </div> 
+    </div>  
+
+
+
+
+    <!-- navbar -->
+     <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link bg-danger" style="border-radius: 10px; margin-right: 20px;" id="easy3" href="#"></a>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link bg-success" style="border-radius: 10px; margin-left: 10px; margin-right: 20px;" href="#"></a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link bg-primary" style="border-radius: 10px; margin-left: 10px; margin-right: 20px;" href="#"></a>
+                </li>
+                
+                <li class="nav-item">
+                    <button type="button" class="btn btn-warning" id="reset">Change colors.</button>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="margin-left: 100px;">Find this color <span id="updated">rgb</span></a>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="correct">Try again!!!!!!</a>
+                </li>
+
+            </div>
+                </li>
+            </div>
+          </nav>
+    </div> 
+
+    
+    <!-- squares -->
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+<script type="text/javascript" src="color.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

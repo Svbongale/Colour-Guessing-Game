@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(65, 72, 82);
+}
+
+.square{
+    width: 30%;
+    background-color: aqua;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20px;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h1{
+    color: white;
+}
